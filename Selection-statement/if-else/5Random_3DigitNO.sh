@@ -1,11 +1,11 @@
 #!/bin/bash -x
 
 echo "Five random Numbers"
-Num1=$((100+RANDOM%900))
-Num2=$((100+RANDOM%900))
-Num3=$((100+RANDOM%900))
-Num4=$((100+RANDOM%900))
-Num5=$((100+RANDOM%900))
+Num1=$((RANDOM%999))
+Num2=$((RANDOM%999))
+Num3=$((RANDOM%999))
+Num4=$((RANDOM%999))
+Num5=$((RANDOM%999))
 
 echo "Num1="$Num1
 echo "Num2="$Num2
