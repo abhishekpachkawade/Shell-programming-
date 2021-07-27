@@ -1,3 +1,5 @@
+#!/bin/bash -x
+
 echo "Enter a Number"
 read number
 case $number in
